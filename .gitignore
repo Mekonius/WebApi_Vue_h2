@@ -1,4 +1,51 @@
-node_modules
-bin/
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node/Vue frontend
+node_modules/
 dist/
+dist-ssr/
+*.local
+
+# .NET backend
+bin/
 obj/
+*.user
+*.vspscc
+*.vssscc
+*.dbmdl
+*.pdb
+*.cache
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+
+# System files
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Test coverage
+coverage/
+TestResults/
+*.coverage
+*.coveragexml
+
+# Environment files
+.env
+.env.*
+appsettings.Development.json
+appsettings.Local.json
